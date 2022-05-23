@@ -2,11 +2,11 @@ import Foundation
 
 public struct LoginResponse: Codable {
     
-    public let isSuccess: Bool
+    public let userToken: String
     
     
-    public init(isSuccess: Bool) {
-        self.isSuccess = isSuccess
+    public init(userToken: String) {
+        self.userToken = userToken
     }
 }
 
